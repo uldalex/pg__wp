@@ -1,0 +1,126 @@
+.cookie-warn {
+    position: fixed;
+    bottom: 23px;
+    left: 50%;
+    max-width: 800px;
+    width: 90%;
+    padding: 23px 23px 23px 80px;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 20%);
+    background-color: rgba(0,0,0,0.85);
+    background-color: #f5f7fa;
+    color: #272c3e;
+    transform: translate(-50%);
+    z-index: 200;
+
+}
+.cookie-warn .inner {
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.cookie-warn svg {
+    width: 40px;
+    position: absolute;
+    left: -60px;
+}
+.cookie-warn p {
+    font-size: 12px;
+    line-height: 140%;
+    min-width: 100%;
+}
+
+.cookie-warn a {
+    color: #91278d;
+    font-size: 12px;
+    border-bottom: 1px dashed #91278d;
+    padding: 0;
+    line-height: 14px;
+    text-decoration: none;
+}
+.cookie-warn input[type=submit] {
+    position: absolute;
+    right: 15px;
+    top: 80%;
+    bottom: 12px;
+    background-color: transparent;
+    font-size: 12px;
+        border:0px;
+    outline:none;
+    border-bottom: 1px dashed #91278d;
+    padding: 0;
+    color: #91278d!important;
+    line-height: 14px;
+    text-decoration: none;
+    height:16px;
+   font-family: Geometria, sans-serif;
+
+}
+.cookie-warn input[type=submit]:focus, .cookie-warn input[type=submit]:active {
+  outline:none;    
+}
+.cookie-warn span.mobileVisible{
+    display:none;
+}
+@media(max-width:500px){
+    .cookie-warn {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        max-width: 800px;
+        width: 90%;
+        /* height: 70px; */
+        padding: 23px 23px 23px 80px;
+        padding: 10px;
+        border-radius: .5rem;
+        box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 20%);
+        background-color: rgba(0,0,0,0.85);
+        background-color: #f5f7fa;
+        color: #272c3e;
+        transform: translate(-50%);
+        z-index: 500000;
+    }
+    .cookie-warn svg {
+        display:none;
+    }
+    .cookie-warn .inner {
+        margin: 0 auto;
+        position: relative;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    .cookie-warn p {
+        font-size: 12px;
+        line-height: 110%;
+        min-width: 100%;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+   .cookie-warn a, .cookie-warn input[type=submit] {
+        position: absolute;
+        right: 15px;
+        top: 87%;
+        bottom: -60px;
+        background-color: transparent;
+        font-size: 12px;
+        line-height: 12px;
+        padding: 0;
+        height: auto;
+        max-height: 14px;
+        margin-bottom: 0;
+        border-bottom: 1px dashed #91278d;
+        padding: 0;
+        color: #91278d!important;
+        line-height: 14px;
+        text-decoration: none;
+    }
+    .cookie-warn a {
+        left:15px;
+        right:auto;
+    }
+}

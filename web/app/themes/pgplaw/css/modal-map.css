@@ -1,0 +1,196 @@
+#geography .modal__dialog {
+    min-width: 80%
+}
+
+#geography .st0 {
+    fill: #fff
+}
+
+#geography .st1 {
+    fill: #fdfefe
+}
+
+#geography .st2 {
+    fill: #561453
+}
+
+#geography .st3 {
+    fill: #697176
+}
+#vlad {
+    transform: translate(40px, -40px);
+}
+
+#geography .st4 {
+    fill: #0bf4f4
+}
+
+#geography .st5 {
+    fill: #92278f
+}
+
+#geography .st6 {
+    fill: #951b81
+}
+
+#geography .st7 {
+    fill: #fff;
+    stroke: #d871d8;
+    stroke-miterlimit: 10
+}
+
+#geography #Moscow_Office {
+    -webkit-transform: translate(30px, -200px);
+    transform: translate(30px, -200px);
+    opacity: 0;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    position: relative;
+    z-index: 0
+}
+
+#geography #St_Pet_Office {
+    -webkit-transform: translate(-30px, -100px);
+    transform: translate(-30px, -100px);
+    opacity: 0;
+    display: none;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    position: relative;
+    z-index: 0
+}
+
+#geography #Shanghai_office {
+    -webkit-transform: translate(-100px, 10px);
+    transform: translate(-100px, 10px);
+    opacity: 0;
+    display: none;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    position: relative;
+    z-index: 0;
+    display: none
+}
+
+#geography #beijing_office {
+    -webkit-transform: translate(-200px, 10px);
+    transform: translate(-200px, 10px);
+    opacity: 0;
+    display: none;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    position: relative;
+    z-index: 0
+}
+
+#geography #Vladivostok_Office {
+    -webkit-transform: translate(50px, -100px);
+    transform: translate(50px, -100px);
+    opacity: 0;
+    display: none;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    position: relative;
+    z-index: 0
+}
+
+#geography .news-content__item a,
+#geography .news-block .splide .splide__slide {
+    font-size: 14px
+}
+
+#geography #Krasnoyarsk_Office {
+    -webkit-transform: translate(0, -100px);
+    transform: translate(0, -100px);
+    opacity: 0;
+    display: none;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    position: relative;
+    z-index: 0
+}
+
+#geography #Yuz_Sakh_Office {
+    -webkit-transform: translate(0, -100px);
+    transform: translate(0, -100px);
+    opacity: 0;
+    display: none;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    position: relative;
+    z-index: 0
+}
+
+#geography #moskow:hover #Moscow_Office {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+#geography #piter:hover #St_Pet_Office {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+    display: block;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+#geography #shang:hover #Shanghai_office {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+    display: block;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+#geography #peck:hover #beijing_office {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+    display: block;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+#geography #vlad:hover #Vladivostok_Office {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+    display: block;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+#geography #kr:hover #Krasnoyarsk_Office {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+    display: block;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+#geography #us:hover #Yuz_Sakh_Office {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+    display: block;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+#geography .svg__link {
+    display: block;
+    margin-bottom: -20px;
+    padding: 20px;
+    position: relative;
+    z-index: 100
+}
+
+#geography .rect {
+    fill: transparent
+}

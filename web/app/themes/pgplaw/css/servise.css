@@ -1,0 +1,204 @@
+.dropdown {
+    background-color: #fff;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    position: relative;
+    text-align: left;
+    outline: 0;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='12' height='7' viewBox='0 0 12 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='0.353553' y1='0.646447' x2='6.35355' y2='6.64645' stroke='%2392278F'/%3E%3Cline y1='-0.5' x2='8.48528' y2='-0.5' transform='matrix(-0.707107 0.707107 0.707107 0.707107 12 1)' stroke='%2392278F'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 22px top 22px;
+    margin-bottom: 20px
+}
+
+.dropdown.active {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='12' height='7' viewBox='0 0 12 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='11.6464' y1='6.35355' x2='5.64645' y2='0.353553' stroke='%2392278F'/%3E%3Cline y1='-0.5' x2='8.48528' y2='-0.5' transform='matrix(0.707107 -0.707107 -0.707107 -0.707107 0 6)' stroke='%2392278F'/%3E%3C/svg%3E")
+}
+
+.dropdown input {
+    padding: 0 15px;
+    margin: 0 15px;
+    margin-bottom: 15px;
+    width: calc(100% - 30px);
+    background-color: #f5f7fa;
+    border: 0;
+    line-height: 3rem;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='13.0607' y1='13' x2='17' y2='16.9393' stroke='%23272C3E' stroke-width='1.5' stroke-linecap='round'/%3E%3Ccircle cx='7.5' cy='7.5' r='6.75' stroke='%23272C3E' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    position: relative
+}
+
+.dropdown input:focus,
+.dropdown input.active {
+    background-image: none
+}
+
+.dropdown__close {
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    right: 25px;
+    top: 30px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-bottom: 1px solid #92278f;
+    display: none
+}
+
+.dropdown__close:after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-bottom: 1px solid #92278f;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg)
+}
+
+.dropdown__close:hover {
+    cursor: pointer
+}
+
+.dropdown__close.active {
+    display: block
+}
+
+.dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding: 15px;
+    color: #838b98
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-top: 1rem;
+    display: none;
+    overflow-y: auto;
+    z-index: 9;
+    -webkit-box-shadow: 0 4px 15px rgba(180, 180, 180, .25);
+    box-shadow: 0 4px 15px rgba(180, 180, 180, .25)
+}
+
+.dropdown .dropdown-menu ul {
+    max-height: 232px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #92278f #f5f7fa
+}
+
+.dropdown-menu ul::-webkit-scrollbar {
+    width: 7px
+}
+
+.dropdown-menu ul::-webkit-scrollbar-track {
+    background: #f5f7fa
+}
+
+.dropdown-menu ul::-webkit-scrollbar-thumb {
+    background-color: #92278f;
+    border-radius: 0;
+    border: 7px solid #92278f
+}
+
+.dropdown .dropdown-menu ul li {
+    padding: 15px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    cursor: pointer
+}
+
+.dropdown .dropdown-menu ul {
+    padding: 0;
+    list-style: none
+}
+
+
+
+.servise-form {
+    background-color: #f5f7fa;
+    padding: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height:calc(100% - 1rem);
+
+}
+
+.servise-form__title {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 130%;
+    text-transform: uppercase
+}
+
+.servise-form__link {
+    color: #838b98
+}
+
+.servise-form__tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 5px
+}
+
+.servise-form__tag {
+    display: block;
+    padding: 5px;
+    border: 1px solid #838b98;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #838b98
+}
+
+.servise-form__tag:hover {
+    color: #6f196c;
+    border-color: #6f196c
+}
+
+.servise-form__readmore {
+    position: relative;
+    margin-top: 5px
+}
+
+.servise-form__readmore:after {
+    position: absolute;
+    right: -35px;
+    content: " ";
+    width: 25px;
+    height: 100%;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='26' height='8' viewBox='0 0 26 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25.3536 4.35355C25.5488 4.15829 25.5488 3.84171 25.3536 3.64645L22.1716 0.464466C21.9763 0.269204 21.6597 0.269204 21.4645 0.464466C21.2692 0.659728 21.2692 0.976311 21.4645 1.17157L24.2929 4L21.4645 6.82843C21.2692 7.02369 21.2692 7.34027 21.4645 7.53553C21.6597 7.7308 21.9763 7.7308 22.1716 7.53553L25.3536 4.35355ZM0 4.5H25V3.5H0V4.5Z' fill='%2392278F'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right center
+}
+
+.servise-form__readmore:hover {
+    color: #6f196c;
+    border-bottom-color: #6f196c
+}
+
+.servise-form__readmore:hover:after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='26' height='8' viewBox='0 0 26 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25.3536 4.35355C25.5488 4.15829 25.5488 3.84171 25.3536 3.64645L22.1716 0.464466C21.9763 0.269204 21.6597 0.269204 21.4645 0.464466C21.2692 0.659728 21.2692 0.976311 21.4645 1.17157L24.2929 4L21.4645 6.82843C21.2692 7.02369 21.2692 7.34027 21.4645 7.53553C21.6597 7.7308 21.9763 7.7308 22.1716 7.53553L25.3536 4.35355ZM0 4.5H25V3.5H0V4.5Z' fill='%236F196C'/%3E%3C/svg%3E")
+}
+
+.servise-form__footer {
+    margin-top: auto;
+    padding-top:20px;
+}

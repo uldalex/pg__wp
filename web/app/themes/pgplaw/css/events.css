@@ -1,0 +1,229 @@
+.section-events {
+  background-color: #f5f7fa
+}
+
+.section-events .btn {
+    background-color: #92278f;
+    color: #fff;
+    margin-top: 30px;
+    padding: 15px 60px;
+    -webkit-transition: background-color .3s linear;
+    transition: background-color .3s linear
+}
+
+.section-events .btn:hover {
+    background-color: #6f196c
+}
+
+.event-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1px;
+
+    background-image: linear-gradient(261deg, rgba(168, 51, 168, .4) 20%, rgba(168, 51, 168, .3) 40%, rgba(127, 166, 216, .6) 70%, rgba(127, 166, 216, .4) 100%);
+
+}
+
+.event-card__wrapper {
+    background-color: #fff;
+    min-height: 100%;
+    min-width:100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative
+}
+
+.event-card__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.event-card__date {
+    text-transform: uppercase;
+    font-weight: 300
+}
+.event-card__date span {
+    padding-right:4px;
+}
+
+.event-card .label {
+    font-weight: 400;
+    white-space: nowrap
+}
+
+.event-card__content {
+    font-weight: 600;
+    margin-top: 20px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin-bottom: 15px
+}
+
+.event-card__footer {
+    margin-top: 15px
+}
+
+.event-card__footer a {
+    color: #838b98;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #838b98
+}
+
+.event-card__footer a:hover {
+    color: #92278f;
+    border-bottom: 1px solid #92278f
+}
+
+.event-card__footer a:focus,
+.event-card__footer a:active {
+    color: #6f196c;
+    border-bottom: 1px solid #6f196c
+}
+
+.event-card:first-child {
+    margin-left: 0
+}
+
+.event-card__avtor {
+    color: #838b98;
+    margin-bottom: 15px
+}
+
+.event-card__price {
+    color: #838b98
+}
+
+.event-card__more {
+    position: relative;
+    overflow: hidden;
+    height: 28px
+}
+
+.event-card__more a {
+    position: absolute;
+    color: #838b98;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #838b98;
+    top: 200%;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear
+}
+
+.event-card__more a:hover {
+    color: #92278f;
+    border-bottom: 1px solid #92278f
+}
+
+.event-card__more a:focus,
+.event-card__more a:active {
+    color: #6f196c;
+    border-bottom: 1px solid #6f196c
+}
+
+.event-card:hover .event-card__more a {
+    top: 0
+}
+
+.event-card--news {
+
+    background-image: none
+}
+
+.event-card--news:last-child {
+    margin-right: 0
+}
+
+.event-card--news .event-card__wrapper {
+    background-color: #f5f7fa;
+    width: 100%
+}
+
+.event-card--news .label {
+    background-color: #fff
+}
+
+.event-card--news .event-card__content {
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 0
+}
+
+.event-card--video {
+    width: 25%;
+    background-image: none
+}
+
+.event-card--video .event-card__perw img {
+    width: 100%
+}
+
+.event-card--video .event-card__wrapper {
+    padding: 0
+}
+
+.event-card--video .event-card__content {
+    margin-top: 15px;
+    margin-bottom: 0
+}
+
+.event-card--video a {
+    color: #272c3e
+}
+
+.event-card--video a:hover {
+    color: #92278f
+}
+
+.event-card--video a:focus,
+.event-card--video a:active {
+    color: #6f196c
+}
+
+.event-card--book {
+    width: 25%;
+    background-image: none
+}
+
+.event-card--book .event-card__wrapper {
+    padding: 0
+}
+
+.event-card--book .event-card__perw {
+    height: 200px
+}
+
+.event-card--book .event-card__perw img {
+    max-height: 200px
+}
+
+.event-card--book .event-card__content {
+    margin-top: 15px;
+    margin-bottom: 0
+}
+
+.event-card--book a {
+    color: #272c3e
+}
+
+.event-card--book a:hover {
+    color: #92278f
+}
+
+.event-card--book a:focus,
+.event-card--book a:active {
+    color: #6f196c
+}

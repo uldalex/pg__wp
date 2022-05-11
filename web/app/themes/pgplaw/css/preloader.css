@@ -1,0 +1,33 @@
+	#preloader {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background:rgba(255,255,255,0.7);
+		z-index: 9999
+	}
+
+	#preloader .preloader_wrapper {
+		text-align: center;
+		position: fixed;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 200px;
+        height: 200px;
+        display:flex;
+        flex-direction:column;
+        color:#838B98;
+        align-items:center;
+	}
+	#preloader .preloader_wrapper img {
+	    margin-top:30px;
+	    width:100px;
+	}
+		.loaded  #preloader{
+display:none;
+	}
