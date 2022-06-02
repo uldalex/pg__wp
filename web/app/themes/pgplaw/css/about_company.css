@@ -1,0 +1,17 @@
+.d-flex {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.spetial_practicle {
+    padding:1rem;
+    margin:1rem;
+    background-color: #f5f7fa;
+}
+.spetial_practicle__title {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 130%;
+    text-transform: uppercase;
+
+}
